@@ -125,7 +125,7 @@ def create_sharepoint_entity_and_build_lineage_to_pbi(client, entity_name, actua
         pbi_short_name (str): Short name of the Power BI dataset.
     '''
     sharepoint_short_name = entity_name.replace(" ", "_")
-    entity_qualified_name = "sharepoint://hanes.sharepoint.com/" + sharepoint_short_name
+    entity_qualified_name = "sharepoint://client.sharepoint.com/" + sharepoint_short_name
     sharepoint_dict = create_sharepoint_entity(client, entity_name, entity_qualified_name, actual_sharepoint_link)
     
     pbi_dataset_dict = get_entity_from_qualified_name_using_type(client, pbi_dataset_qualified_name, "powerbi_dataset")

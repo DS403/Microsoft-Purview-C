@@ -79,7 +79,7 @@ If the upload fails, check the JSON output for error messages. Common issues inc
 #### 2. Incorrect Mappings: 
 Ensure that the mappings in the Excel file accurately represent the desired lineage. Incorrect mappings can lead to inaccurate lineage representations in the data catalog.
 
-Please refer to the Purview documentation or please don't hesitate to [reach out to the Data Governance Team](mailto:data_governance_team@hanes.com). We are here to assist you promptly and ensure a smooth experience with our project.
+Please refer to the Purview documentation or please don't hesitate to [reach out to the Data Governance Team](mailto:data_governance_team@client.com). We are here to assist you promptly and ensure a smooth experience with our project.
 
 <p align="right">(<a href="#Column Lineage-top">Back to Top</a>)</p>
 

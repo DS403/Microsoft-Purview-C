@@ -132,7 +132,7 @@ If you encounter issues during the SAP HANA scanning process:
 - Review Purview logs and notifications for error details.
 - Ensure that the SAP HANA instance is accessible from the Purview environment.
 
-Please refer to the Purview documentation or please don't hesitate to [reach out to the Data Governance Team](mailto:data_governance_team@hanes.com). We are here to assist you promptly and ensure a smooth experience with our project.
+Please refer to the Purview documentation or please don't hesitate to [reach out to the Data Governance Team](mailto:data_governance_team@client.com). We are here to assist you promptly and ensure a smooth experience with our project.
 
 <p align="right">(<a href="#SAP HANA-top">Back to Top</a>)</p>
 

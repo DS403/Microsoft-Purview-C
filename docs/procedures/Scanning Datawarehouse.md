@@ -84,7 +84,7 @@ If encountering issues during registration or scanning:
 - Review Purview logs for error messages.
 - Verify data warehouse permissions for the Purview account.
 
-Please refer to the Purview documentation or please don't hesitate to [reach out to the Data Governance Team](mailto:data_governance_team@hanes.com). We are here to assist you promptly and ensure a smooth experience with our project.
+Please refer to the Purview documentation or please don't hesitate to [reach out to the Data Governance Team](mailto:data_governance_team@client.com). We are here to assist you promptly and ensure a smooth experience with our project.
 
 <p align="right">(<a href="#Azure Datawarehouse-top">Back to Top</a>)</p>
 

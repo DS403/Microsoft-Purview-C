@@ -93,7 +93,7 @@ Effortless viewing and access to glossary terms are facilitated by navigating to
 
 ## Troubleshooting
 
-If you encounter issues with glossary, refer to the Purview documentation or please don't hesitate to [reach out to the Data Governance Team](mailto:data_governance_team@hanes.com). We are here to assist you promptly and ensure a smooth experience with our project.
+If you encounter issues with glossary, refer to the Purview documentation or please don't hesitate to [reach out to the Data Governance Team](mailto:data_governance_team@client.com). We are here to assist you promptly and ensure a smooth experience with our project.
 
 <p align="right">(<a href="#Glossary-top">Back to Top</a>)</p>
 

@@ -588,7 +588,7 @@ def main():
     
     
     # #define file path
-    path_to_file= r'C:\Users\Mansi.Choudhary\Documents\Hanes\salsify_export1.xlsx'
+    path_to_file= r'C:\Users\Mansi.Choudhary\Documents\client\salsify_export1.xlsx'
     #hierarchy_cols=['ID','salsify:data_inheritance_hierarchy_level_id','salsify:parent_id']
     hierarchy_cols=['ID','Hierarchy Level','Parent ID']
 
@@ -602,7 +602,7 @@ def main():
     salsify_df=parse_salsify_dict(salsify_dict)
 
     # #get column description for the columns in salsify
-    file_path  =r'C:\Users\Mansi.Choudhary\Documents\Hanes\export_All_Properties_Hanes_Inc.xlsx'
+    file_path  =r'C:\Users\Mansi.Choudhary\Documents\client\export_All_Properties_client_Inc.xlsx'
     col_description_columns=['salsify:id','salsify:name']
     salsify_desc_df=get_salsify_descriptions(file_path, col_description_columns)
 

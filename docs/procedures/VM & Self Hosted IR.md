@@ -103,7 +103,7 @@ Azure Purview is a data governance service that helps organizations discover and
 
 ## Troubleshooting
 
-Please refer to the Purview documentation or please don't hesitate to [reach out to the Data Governance Team](mailto:data_governance_team@hanes.com). We are here to assist you promptly and ensure a smooth experience with our project.
+Please refer to the Purview documentation or please don't hesitate to [reach out to the Data Governance Team](mailto:data_governance_team@client.com). We are here to assist you promptly and ensure a smooth experience with our project.
 
 <p align="right">(<a href="#VM & IR Setup-top">Back to Top</a>)</p>
 

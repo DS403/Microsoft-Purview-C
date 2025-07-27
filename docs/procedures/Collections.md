@@ -81,7 +81,7 @@ This user-friendly interface simplifies the exploration of collections, facilita
 
 ## Troubleshooting
 
-If you encounter issues with collections, refer to the Purview documentation or please don't hesitate to [reach out to the Data Governance Team](mailto:data_governance_team@hanes.com). We are here to assist you promptly and ensure a smooth experience with our project.
+If you encounter issues with collections, refer to the Purview documentation or please don't hesitate to [reach out to the Data Governance Team](mailto:data_governance_team@client.com). We are here to assist you promptly and ensure a smooth experience with our project.
 
 <p align="right">(<a href="#collections-top">Back to Top</a>)</p>
 
