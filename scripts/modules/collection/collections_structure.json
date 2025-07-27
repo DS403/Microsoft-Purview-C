@@ -1,0 +1,625 @@
+[
+    {
+      "friendly_name": "hbi-pd01-datamgmt-pview",
+      "description": "The root collection.",
+      "parent_collection_friendly_name": null,
+      "subcollections": [
+        {
+          "friendly_name": "Shared-Hub",
+          "description": null,
+          "parent_collection_friendly_name": "hbi-pd01-datamgmt-pview",
+          "subcollections": [
+            {
+              "friendly_name": "Business Partner",
+              "description": null,
+              "parent_collection_friendly_name": "Shared-Hub",
+              "subcollections": [
+                {
+                    "friendly_name": "Delta_logs",
+                    "description": "Contains all the Delta_logs files",
+                    "parent_collection_friendly_name": "Business Partner",
+                    "subcollections": []
+                },
+                {
+                    "friendly_name": "Archive",
+                    "description": "Contains all the Archive files",
+                    "parent_collection_friendly_name": "Business Partner",
+                    "subcollections": []
+                },
+                {
+                    "friendly_name": "Ingest",
+                    "description": "Contains all the Ingest files",
+                    "parent_collection_friendly_name": "Business Partner",
+                    "subcollections": []
+                }
+            ]
+            },
+            {
+                "friendly_name": "Consumer Behavior",
+                "description": null,
+                "parent_collection_friendly_name": "Shared-Hub",
+                "subcollections": [
+                    {
+                        "friendly_name": "Delta_logs",
+                        "description": "Contains all the Delta_logs files",
+                        "parent_collection_friendly_name": "Consumer Behavior",
+                        "subcollections": []
+                    },
+                    {
+                        "friendly_name": "Archive",
+                        "description": "Contains all the Archive files",
+                        "parent_collection_friendly_name": "Consumer Behavior",
+                        "subcollections": []
+                    },
+                    {
+                        "friendly_name": "Ingest",
+                        "description": "Contains all the Ingest files",
+                        "parent_collection_friendly_name": "Consumer Behavior",
+                        "subcollections": []
+                    }
+                ]
+            },
+            {
+                "friendly_name": "Demand Planning",
+                "description": null,
+                "parent_collection_friendly_name": "Shared-Hub",
+                "subcollections": [
+                    {
+                        "friendly_name": "Delta_logs",
+                        "description": "Contains all the Delta_logs files",
+                        "parent_collection_friendly_name": "Demand Planning",
+                        "subcollections": []
+                    },
+                    {
+                        "friendly_name": "Archive",
+                        "description": "Contains all the Archive files",
+                        "parent_collection_friendly_name": "Demand Planning",
+                        "subcollections": []
+                    },
+                    {
+                        "friendly_name": "Ingest",
+                        "description": "Contains all the Ingest files",
+                        "parent_collection_friendly_name": "Demand Planning",
+                        "subcollections": []
+                    }
+                ]
+            },
+            {
+                "friendly_name": "Global Finance",
+                "description": null,
+                "parent_collection_friendly_name": "Shared-Hub",
+                "subcollections": [
+                    {
+                        "friendly_name": "Delta_logs",
+                        "description": "Contains all the Delta_logs files",
+                        "parent_collection_friendly_name": "Global Finance",
+                        "subcollections": []
+                    },
+                    {
+                        "friendly_name": "Archive",
+                        "description": "Contains all the Archive files",
+                        "parent_collection_friendly_name": "Global Finance",
+                        "subcollections": []
+                    },
+                    {
+                        "friendly_name": "Ingest",
+                        "description": "Contains all the Ingest files",
+                        "parent_collection_friendly_name": "Global Finance",
+                        "subcollections": []
+                    }
+                ]
+            },
+            {
+                "friendly_name": "Human Resources",
+                "description": null,
+                "parent_collection_friendly_name": "Shared-Hub",
+                "subcollections": [
+                    {
+                        "friendly_name": "Delta_logs",
+                        "description": "Contains all the Delta_logs files",
+                        "parent_collection_friendly_name": "Human Resources",
+                        "subcollections": []
+                    },
+                    {
+                        "friendly_name": "Archive",
+                        "description": "Contains all the Archive files",
+                        "parent_collection_friendly_name": "Human Resources",
+                        "subcollections": []
+                    },
+                    {
+                        "friendly_name": "Ingest",
+                        "description": "Contains all the Ingest files",
+                        "parent_collection_friendly_name": "Human Resources",
+                        "subcollections": []
+                    }
+                ]
+            },
+            {
+                "friendly_name": "Inventory",
+                "description": null,
+                "parent_collection_friendly_name": "Shared-Hub",
+                "subcollections": [
+                    {
+                        "friendly_name": "Delta_logs",
+                        "description": "Contains all the Delta_logs files",
+                        "parent_collection_friendly_name": "Inventory",
+                        "subcollections": []
+                    },
+                    {
+                        "friendly_name": "Archive",
+                        "description": "Contains all the Archive files",
+                        "parent_collection_friendly_name": "Inventory",
+                        "subcollections": []
+                    },
+                    {
+                        "friendly_name": "Ingest",
+                        "description": "Contains all the Ingest files",
+                        "parent_collection_friendly_name": "Inventory",
+                        "subcollections": []
+                    }
+                ]
+            },
+            {
+                "friendly_name": "Legal & Corporate",
+                "description": null,
+                "parent_collection_friendly_name": "Shared-Hub",
+                "subcollections": [
+                    {
+                        "friendly_name": "Delta_logs",
+                        "description": "Contains all the Delta_logs files",
+                        "parent_collection_friendly_name": "Legal & Corporate",
+                        "subcollections": []
+                    },
+                    {
+                        "friendly_name": "Archive",
+                        "description": "Contains all the Archive files",
+                        "parent_collection_friendly_name": "Legal & Corporate",
+                        "subcollections": []
+                    },
+                    {
+                        "friendly_name": "Ingest",
+                        "description": "Contains all the Ingest files",
+                        "parent_collection_friendly_name": "Legal & Corporate",
+                        "subcollections": []
+                    }
+                ]
+            },
+            {
+                "friendly_name": "Logistics",
+                "description": null,
+                "parent_collection_friendly_name": "Shared-Hub",
+                "subcollections": [
+                    {
+                        "friendly_name": "Delta_logs",
+                        "description": "Contains all the Delta_logs files",
+                        "parent_collection_friendly_name": "Logistics",
+                        "subcollections": []
+                    },
+                    {
+                        "friendly_name": "Archive",
+                        "description": "Contains all the Archive files",
+                        "parent_collection_friendly_name": "Logistics",
+                        "subcollections": []
+                    },
+                    {
+                        "friendly_name": "Ingest",
+                        "description": "Contains all the Ingest files",
+                        "parent_collection_friendly_name": "Logistics",
+                        "subcollections": []
+                    }
+                ]
+            },
+            {
+                "friendly_name": "Manufacturing",
+                "description": null,
+                "parent_collection_friendly_name": "Shared-Hub",
+                "subcollections": [
+                    {
+                        "friendly_name": "Delta_logs",
+                        "description": "Contains all the Delta_logs files",
+                        "parent_collection_friendly_name": "Manufacturing",
+                        "subcollections": []
+                    },
+                    {
+                        "friendly_name": "Archive",
+                        "description": "Contains all the Archive files",
+                        "parent_collection_friendly_name": "Manufacturing",
+                        "subcollections": []
+                    },
+                    {
+                        "friendly_name": "Ingest",
+                        "description": "Contains all the Ingest files",
+                        "parent_collection_friendly_name": "Manufacturing",
+                        "subcollections": []
+                    }
+                ]
+            },
+            {
+                "friendly_name": "Procurement",
+                "description": null,
+                "parent_collection_friendly_name": "Shared-Hub",
+                "subcollections": [
+                    {
+                        "friendly_name": "Delta_logs",
+                        "description": "Contains all the Delta_logs files",
+                        "parent_collection_friendly_name": "Procurement",
+                        "subcollections": []
+                    },
+                    {
+                        "friendly_name": "Archive",
+                        "description": "Contains all the Archive files",
+                        "parent_collection_friendly_name": "Procurement",
+                        "subcollections": []
+                    },
+                    {
+                        "friendly_name": "Ingest",
+                        "description": "Contains all the Ingest files",
+                        "parent_collection_friendly_name": "Procurement",
+                        "subcollections": []
+                    }
+                ]
+            },
+            {
+                "friendly_name": "Product Design & Development",
+                "description": null,
+                "parent_collection_friendly_name": "Shared-Hub",
+                "subcollections": [
+                    {
+                        "friendly_name": "Delta_logs",
+                        "description": "Contains all the Delta_logs files",
+                        "parent_collection_friendly_name": "Product Design & Development",
+                        "subcollections": []
+                    },
+                    {
+                        "friendly_name": "Archive",
+                        "description": "Contains all the Archive files",
+                        "parent_collection_friendly_name": "Product Design & Development",
+                        "subcollections": []
+                    },
+                    {
+                        "friendly_name": "Ingest",
+                        "description": "Contains all the Ingest files",
+                        "parent_collection_friendly_name": "Product Design & Development",
+                        "subcollections": []
+                    }
+                ]
+            },
+            {
+                "friendly_name": "Sales & Marketing",
+                "description": null,
+                "parent_collection_friendly_name": "Shared-Hub",
+                "subcollections": [
+                    {
+                        "friendly_name": "Delta_logs",
+                        "description": "Contains all the Delta_logs files",
+                        "parent_collection_friendly_name": "Sales & Marketing",
+                        "subcollections": []
+                    },
+                    {
+                        "friendly_name": "Archive",
+                        "description": "Contains all the Archive files",
+                        "parent_collection_friendly_name": "Sales & Marketing",
+                        "subcollections": []
+                    },
+                    {
+                        "friendly_name": "Ingest",
+                        "description": "Contains all the Ingest files",
+                        "parent_collection_friendly_name": "Sales & Marketing",
+                        "subcollections": []
+                    }
+                ]
+            },
+            {
+                "friendly_name": "Shared-Hub-Unclassified",
+                "description": null,
+                "parent_collection_friendly_name": "Shared-Hub",
+                "subcollections": [
+                    {
+                        "friendly_name": "Delta_logs",
+                        "description": "Contains all the Delta_logs files",
+                        "parent_collection_friendly_name": "Shared-Hub-Unclassified",
+                        "subcollections": []
+                    },
+                    {
+                        "friendly_name": "Archive",
+                        "description": "Contains all the Archive files",
+                        "parent_collection_friendly_name": "Shared-Hub-Unclassified",
+                        "subcollections": []
+                    },
+                    {
+                        "friendly_name": "Ingest",
+                        "description": "Contains all the Ingest files",
+                        "parent_collection_friendly_name": "Shared-Hub-Unclassified",
+                        "subcollections": []
+                    }
+                ]
+            },
+            {
+                "friendly_name": "Supply Chain Planning",
+                "description": null,
+                "parent_collection_friendly_name": "Shared-Hub",
+                "subcollections": [
+                    {
+                        "friendly_name": "Delta_logs",
+                        "description": "Contains all the Delta_logs files",
+                        "parent_collection_friendly_name": "Supply Chain Planning",
+                        "subcollections": []
+                    },
+                    {
+                        "friendly_name": "Archive",
+                        "description": "Contains all the Archive files",
+                        "parent_collection_friendly_name": "Supply Chain Planning",
+                        "subcollections": []
+                    },
+                    {
+                        "friendly_name": "Ingest",
+                        "description": "Contains all the Ingest files",
+                        "parent_collection_friendly_name": "Supply Chain Planning",
+                        "subcollections": []
+                    }
+                ]
+            },
+            {
+                "friendly_name": "Sustainability & Real Estate",
+                "description": null,
+                "parent_collection_friendly_name": "Shared-Hub",
+                "subcollections": [
+                    {
+                        "friendly_name": "Delta_logs",
+                        "description": "Contains all the Delta_logs files",
+                        "parent_collection_friendly_name": "Sustainability & Real Estate",
+                        "subcollections": []
+                    },
+                    {
+                        "friendly_name": "Archive",
+                        "description": "Contains all the Archive files",
+                        "parent_collection_friendly_name": "Sustainability & Real Estate",
+                        "subcollections": []
+                    },
+                    {
+                        "friendly_name": "Ingest",
+                        "description": "Contains all the Ingest files",
+                        "parent_collection_friendly_name": "Sustainability & Real Estate",
+                        "subcollections": []
+                    }
+                ]
+            }
+
+          ]
+        },
+        {
+          "friendly_name": "Source",
+          "description": null,
+          "parent_collection_friendly_name": "hbi-qa01-datamgmt-pview",
+          "subcollections": [
+            {
+                "friendly_name": "Consumer",
+                "description": null,
+                "parent_collection_friendly_name": "Source",
+                "subcollections": [
+                    {
+                        "friendly_name": "Delta_logs",
+                        "description": "Contains all the Delta_logs files",
+                        "parent_collection_friendly_name": "Consumer",
+                        "subcollections": []
+                    },
+                    {
+                        "friendly_name": "Archive",
+                        "description": "Contains all the Archive files",
+                        "parent_collection_friendly_name": "Consumer",
+                        "subcollections": []
+                    },
+                    {
+                        "friendly_name": "Ingest",
+                        "description": "Contains all the Ingest files",
+                        "parent_collection_friendly_name": "Consumer",
+                        "subcollections": []
+                    }
+                ]
+              },
+            {
+                "friendly_name": "Customer",
+                "description": null,
+                "parent_collection_friendly_name": "Source",
+                "subcollections": [
+                    {
+                        "friendly_name": "Delta_logs",
+                        "description": "Contains all the Delta_logs files",
+                        "parent_collection_friendly_name": "Customer",
+                        "subcollections": []
+                    },
+                    {
+                        "friendly_name": "Archive",
+                        "description": "Contains all the Archive files",
+                        "parent_collection_friendly_name": "Customer",
+                        "subcollections": []
+                    },
+                    {
+                        "friendly_name": "Ingest",
+                        "description": "Contains all the Ingest files",
+                        "parent_collection_friendly_name": "Customer",
+                        "subcollections": []
+                    }
+                ]
+              },
+              {
+                "friendly_name": "Finance",
+                "description": null,
+                "parent_collection_friendly_name": "Source",
+                "subcollections": [
+                    {
+                        "friendly_name": "Delta_logs",
+                        "description": "Contains all the Delta_logs files",
+                        "parent_collection_friendly_name": "Finance",
+                        "subcollections": []
+                    },
+                    {
+                        "friendly_name": "Archive",
+                        "description": "Contains all the Archive files",
+                        "parent_collection_friendly_name": "Finance",
+                        "subcollections": []
+                    },
+                    {
+                        "friendly_name": "Ingest",
+                        "description": "Contains all the Ingest files",
+                        "parent_collection_friendly_name": "Finance",
+                        "subcollections": []
+                    }
+                ]
+              },
+              {
+                "friendly_name": "Human Resources",
+                "description": null,
+                "parent_collection_friendly_name": "Source",
+                "subcollections": [
+                    {
+                        "friendly_name": "Delta_logs",
+                        "description": "Contains all the Delta_logs files",
+                        "parent_collection_friendly_name": "Human Resources",
+                        "subcollections": []
+                    },
+                    {
+                        "friendly_name": "Archive",
+                        "description": "Contains all the Archive files",
+                        "parent_collection_friendly_name": "Human Resources",
+                        "subcollections": []
+                    },
+                    {
+                        "friendly_name": "Ingest",
+                        "description": "Contains all the Ingest files",
+                        "parent_collection_friendly_name": "Human Resources",
+                        "subcollections": []
+                    }
+                ]
+              },
+            {
+                "friendly_name": "Material Article",
+                "description": null,
+                "parent_collection_friendly_name": "Source",
+                "subcollections": [
+                    {
+                        "friendly_name": "Delta_logs",
+                        "description": "Contains all the Delta_logs files",
+                        "parent_collection_friendly_name": "Material Article",
+                        "subcollections": []
+                    },
+                    {
+                        "friendly_name": "Archive",
+                        "description": "Contains all the Archive files",
+                        "parent_collection_friendly_name": "Material Article",
+                        "subcollections": []
+                    },
+                    {
+                        "friendly_name": "Ingest",
+                        "description": "Contains all the Ingest files",
+                        "parent_collection_friendly_name": "Material Article",
+                        "subcollections": []
+                    }
+                ]
+              },
+              {
+                "friendly_name": "Plant",
+                "description": null,
+                "parent_collection_friendly_name": "Source",
+                "subcollections": [
+                    {
+                        "friendly_name": "Delta_logs",
+                        "description": "Contains all the Delta_logs files",
+                        "parent_collection_friendly_name": "Plant",
+                        "subcollections": []
+                    },
+                    {
+                        "friendly_name": "Archive",
+                        "description": "Contains all the Archive files",
+                        "parent_collection_friendly_name": "Plant",
+                        "subcollections": []
+                    },
+                    {
+                        "friendly_name": "Ingest",
+                        "description": "Contains all the Ingest files",
+                        "parent_collection_friendly_name": "Plant",
+                        "subcollections": []
+                    }
+                ]
+              },
+              {
+                "friendly_name": "Source-Unclassified",
+                "description": null,
+                "parent_collection_friendly_name": "Source",
+                "subcollections": [
+                    {
+                        "friendly_name": "Delta_logs",
+                        "description": "Contains all the Delta_logs files",
+                        "parent_collection_friendly_name": "Source-Unclassified",
+                        "subcollections": []
+                    },
+                    {
+                        "friendly_name": "Archive",
+                        "description": "Contains all the Archive files",
+                        "parent_collection_friendly_name": "Source-Unclassified",
+                        "subcollections": []
+                    },
+                    {
+                        "friendly_name": "Ingest",
+                        "description": "Contains all the Ingest files",
+                        "parent_collection_friendly_name": "Source-Unclassified",
+                        "subcollections": []
+                    }
+                ]
+              },
+              {
+                "friendly_name": "Supplier",
+                "description": null,
+                "parent_collection_friendly_name": "Source",
+                "subcollections": [
+                    {
+                        "friendly_name": "Delta_logs",
+                        "description": "Contains all the Delta_logs files",
+                        "parent_collection_friendly_name": "Supplier",
+                        "subcollections": []
+                    },
+                    {
+                        "friendly_name": "Archive",
+                        "description": "Contains all the Archive files",
+                        "parent_collection_friendly_name": "Supplier",
+                        "subcollections": []
+                    },
+                    {
+                        "friendly_name": "Ingest",
+                        "description": "Contains all the Ingest files",
+                        "parent_collection_friendly_name": "Supplier",
+                        "subcollections": []
+                    }
+                ]
+              }
+          ]
+        },
+        {
+          "friendly_name": "Unclassified",
+          "description": null,
+          "parent_collection_friendly_name": "hbi-qa01-datamgmt-pview",
+          "subcollections": [
+            {
+                "friendly_name": "Delta_logs",
+                "description": "Contains all the Delta_logs files",
+                "parent_collection_friendly_name": "Unclassified",
+                "subcollections": []
+            },
+            {
+                "friendly_name": "Archive",
+                "description": "Contains all the Archive files",
+                "parent_collection_friendly_name": "Unclassified",
+                "subcollections": []
+            },
+            {
+                "friendly_name": "Ingest",
+                "description": "Contains all the Ingest files",
+                "parent_collection_friendly_name": "Unclassified",
+                "subcollections": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+

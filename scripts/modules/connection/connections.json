@@ -1,0 +1,76 @@
+{
+    "Connections": {
+      "dim_item_to_inventory_cube": {
+        "source": "hbidw.dbo.dim_item",
+        "source_type": "microsoft_sql_services_analysis_services",
+        "target": "inventory_cube",
+        "target_type": "microsoft_sql_services_analysis_services"
+      },
+      "slba_item_to_style": {
+        "source": "slba.slba_item",
+        "source_type": "oracle",
+        "target": "edm.dbo.style",
+        "target_type": "microsoft_sql_services_analysis_services"
+      },
+      "dim_style_to_samba_cube": {
+        "source": "hbidw.dbo.dim_style",
+        "source_type": "microsoft_sql_services_analysis_services",
+        "target": "samba_cube",
+        "target_type": "microsoft_sql_services_analysis_services"
+      },
+      "item_to_dim_item": {
+        "source": "slba.item",
+        "source_type": "oracle",
+        "target": "hbidw.dbo.dim_item",
+        "target_type": "microsoft_sql_services_analysis_services"
+      },
+      "slba_item_to_item": {
+        "source": "slba.slba_item",
+        "source_type": "oracle",
+        "target": "slba.item",
+        "target_type": "oracle"
+      },
+      "sap_item_to_slba_item": {
+        "source": "slba.sap_item",
+        "source_type": "oracle",
+        "target": "slba.slba_item",
+        "target_type": "oracle"
+      },
+      "style_master_1_to_style": {
+        "source": "slba.style_master_1",
+        "source_type": "oracle",
+        "target": "edm.dbo.style",
+        "target_type": "microsoft_sql_services_analysis_services"
+      },
+      "style_to_style_master_1": {
+        "source": "edm.dbo.style",
+        "source_type": "microsoft_sql_services_analysis_services",
+        "target": "slba.style_master_1",
+        "target_type": "oracle"
+      },
+      "style_master_1_to_dim_style": {
+        "source": "slba.style_master_1",
+        "source_type": "oracle",
+        "target": "hbidw.dbo.dim_style",
+        "target_type": "microsoft_sql_services_analysis_services"
+      },
+      "stg_sap_style_to_style_master_1": {
+        "source": "staging.stg_sap_style",
+        "source_type": "oracle",
+        "target": "slba.style_master_1",
+        "target_type": "oracle"
+      },
+      "stg_s4_article_to_style_master_1": {
+        "source": "staging.stg_s4_article",
+        "source_type": "oracle",
+        "target": "slba.style_master_1",
+        "target_type": "oracle"
+      },
+      "stg_s4_article_to_slba_item": {
+        "source": "staging.stg_s4_article",
+        "source_type": "oracle",
+        "target": "slba.slba_item",
+        "target_type": "oracle"
+      }
+    }
+  }

@@ -1,0 +1,23 @@
+# DO NOT include azure-functions-worker in this file
+# The Python Worker is managed by Azure Functions platform
+# Manually managing azure-functions-worker may cause unexpected issues
+
+azure-functions
+azure-functions-durable
+requests
+pydantic
+azure-storage-blob
+azure-identity
+cffi
+azure-mgmt-costmanagement
+pandas
+azure-purview-scanning
+azure-purview-administration
+azure-purview-catalog
+azure-purview-account
+pyapacheatlas
+sqllineage
+fuzzywuzzy
+python-Levenshtein
+azure-mgmt-datafactory
+azure-identity

@@ -1,0 +1,46 @@
+# Notes on EditorConfig: https://EditorConfig.org
+
+# top-most EditorConfig file
+root = true
+
+# Unix-style newlines with a newline ending every file
+[*]
+end_of_line = lf
+insert_final_newline = true
+charset = utf-8
+curly_bracket_next_line = false
+spaces_around_operators = true
+indent_size = 2
+indent_style = space
+
+# 4 space indentation
+[*.py]
+indent_style = space
+indent_size = 4
+trim_trailing_whitespace = true
+
+# Tab indentation (no size specified)
+[Makefile]
+indent_style = tab
+
+# Indentation override for all JS under lib directory
+[lib/**.js]
+indent_style = space
+indent_size = 2
+
+# Matches the exact files package.json
+[*.json]
+indent_style = space
+indent_size = 2
+
+[*.txt]
+indent_style = tab
+indent_size = 4
+
+# Define how to handle Markdown Files
+[*.md]
+trim_trailing_whitespace = false
+
+# Add a separate process for handling tsv files
+[*.tsv]
+indent_style = tab
