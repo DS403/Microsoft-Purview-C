@@ -55,10 +55,4 @@ In this segment, we provide practical examples corresponding to each code snippe
 
 <p align="right">(<a href="#readme-top">Back to Top</a>)</p>
 
-<!-- FUTURE ENHANCEMENTS -->
-
-# Future Enhancements
-
-
-<p align="right">(<a href="#readme-top">Back to Top</a>)</p>
 
